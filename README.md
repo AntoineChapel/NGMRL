@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # The Neoclassical Growth Model
 
 This is a basic macroeconomic model in discrete time, infinite horizon. An agent maximizes its lifetime utility under budget constraint. Solving the model requires finding a policy function that maps every possible value for $k_t$ to the optimal $k_{t+1}$.
@@ -8,4 +7,3 @@ In this notebook, I will solve the Neoclassical Growth Model using three differe
 The second one is one-agent Q-learning, in which an agent experiments with its environment following an $\epsilon$-greedy policy and determines the value of being in each state, based on the optimal action to take in each state. We note the similarity between VFI and Q-learning in that the "value_array" object constructed in VFI is identical to the $Q$ table constructed through Q-learning.
 
 Finally, we experiment with neural networks by solving the problem through deep reinforcement learning. Instead of constructing an explicit $Q$ table, the deep Q-network (DQN) determines a linear approximation of the function $Q(s, a)$, which determines, after convergence, the optimal action to take in any state $s$. We find that the policy function obtained through Deep Q Learning is less smooth than the one obtained through Q Learning.
->>>>>>> b275d7d5ec52a48a10df10af0fb67ade9544ca4a
