@@ -2,11 +2,11 @@
 
 This is a basic macroeconomic model in discrete time, infinite horizon. An agent maximizes its lifetime utility under budget constraint. The specification of the model presented here assumes complete depreciation of capital, but this is inconsequential.
 
-\begin{align*}
+\begin{align}
 \max_{\{c_t\}_0^\infty} &\sum_{t=0}^\infty \beta^t u(c_t)\\
 \text{s.t } &c_t + k_{t+1} = f(k_t)\\
 & k_0 \text{ given }
-\end{align*}
+\end{align}
 
 Given the functional form chosen for our utility and production functions, this becomes:
 
